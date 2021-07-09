@@ -64,25 +64,6 @@ error_reporting(0);
 
 <!-- /Banners --> 
 
-<section class="page-header1 aboutus_page" >
-  <div class="container">
-    <div class="page-header_wrap">
-      <div class="page-heading">
-        <h1>Kuhusu sisi</h1>
-      </div>
-      <ul class="coustom-breadcrumb">
-        <li><a href="#">Nyumbani</a></li>
-        <li>Kuhusu sisi</li>
-      </ul>
-    </div>
-  </div>
-  <!-- Dark Overlay-->
-  <div class="dark-overlay"></div>
-</section>
-
-
-
-
 <!-- Resent Cat-->
 <section class="section-padding gray-bg">
   <div class="container">
