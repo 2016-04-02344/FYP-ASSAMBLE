@@ -12,7 +12,7 @@ include('includes/config.php');
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <meta name="keywords" content="">
 <meta name="description" content="">
-<title>Car Rental Portal | Page details</title>
+<title>Design corner | Page details</title>
 <!--Bootstrap -->
 <link rel="stylesheet" href="assets/css/bootstrap.min.css" type="text/css">
 <!--Custome Style -->
@@ -70,7 +70,7 @@ foreach($results as $result)
         <h1><?php   echo htmlentities($result->PageName); ?></h1>
       </div>
       <ul class="coustom-breadcrumb">
-        <li><a href="#">Home</a></li>
+        <li><a href="#">Nyumbani</a></li>
         <li><?php   echo htmlentities($result->PageName); ?></li>
       </ul>
     </div>

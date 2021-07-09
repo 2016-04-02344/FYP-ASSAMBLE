@@ -38,7 +38,7 @@ $msg="Profile Updated Successfully";
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <meta name="keywords" content="">
 <meta name="description" content="">
-<title>Car Rental Portal | My Profile</title>
+<title>Designer corner | Akaunti Yangu</title>
 <!--Bootstrap -->
 <link rel="stylesheet" href="assets/css/bootstrap.min.css" type="text/css">
 <!--Custome Style -->
@@ -100,11 +100,11 @@ $msg="Profile Updated Successfully";
   <div class="container">
     <div class="page-header_wrap">
       <div class="page-heading">
-        <h1>Your Profile</h1>
+        <h1>Akaunti Yako</h1>
       </div>
       <ul class="coustom-breadcrumb">
-        <li><a href="#">Home</a></li>
-        <li>Profile</li>
+        <li><a href="#">Nyumbani</a></li>
+        <li>Akaunti</li>
       </ul>
     </div>
   </div>
@@ -129,7 +129,7 @@ foreach($results as $result)
 <section class="user_profile inner_pages">
   <div class="container">
     <div class="user_profile_info gray-bg padding_4x4_40">
-      <div class="upload_user_logo"> <img src="assets/images/dealer-logo.jpg" alt="image">
+      <div class="upload_user_logo"> <img src="admin/img01/fashion.jpg" alt="image">
       </div>
 
       <div class="dealer_info">
@@ -144,52 +144,52 @@ foreach($results as $result)
         <?php include('includes/sidebar.php');?>
       <div class="col-md-6 col-sm-8">
         <div class="profile_wrap">
-          <h5 class="uppercase underline">Genral Settings</h5>
+          <h5 class="uppercase underline">Mipangilio Kwa Ujumla</h5>
           <?php  
          if($msg){?><div class="succWrap"><strong>SUCCESS</strong>:<?php echo htmlentities($msg); ?> </div><?php }?>
           <form  method="post">
            <div class="form-group">
-              <label class="control-label">Reg Date -</label>
+              <label class="control-label">tarehe ya kujisajili -</label>
              <?php echo htmlentities($result->RegDate);?>
             </div>
              <?php if($result->UpdationDate!=""){?>
             <div class="form-group">
-              <label class="control-label">Last Update at  -</label>
+              <label class="control-label">tarehe ya mwisho wa kusasisha  -</label>
              <?php echo htmlentities($result->UpdationDate);?>
             </div>
             <?php } ?>
             <div class="form-group">
-              <label class="control-label">Full Name</label>
+              <label class="control-label">jina Kamili</label>
               <input class="form-control white_bg" name="fullname" value="<?php echo htmlentities($result->FullName);?>" id="fullname" type="text"  required>
             </div>
             <div class="form-group">
-              <label class="control-label">Email Address</label>
+              <label class="control-label">Barua pepe</label>
               <input class="form-control white_bg" value="<?php echo htmlentities($result->EmailId);?>" name="emailid" id="email" type="email" required readonly>
             </div>
             <div class="form-group">
-              <label class="control-label">Phone Number</label>
+              <label class="control-label">Namba ya simu</label>
               <input class="form-control white_bg" name="mobilenumber" value="<?php echo htmlentities($result->ContactNo);?>" id="phone-number" type="text" required>
             </div>
             <div class="form-group">
-              <label class="control-label">Date of Birth&nbsp;(dd/mm/yyyy)</label>
+              <label class="control-label">tarehe ya kuzaliwa&nbsp;(dd/mm/yyyy)</label>
               <input class="form-control white_bg" value="<?php echo htmlentities($result->dob);?>" name="dob" placeholder="dd/mm/yyyy" id="birth-date" type="text" >
             </div>
             <div class="form-group">
-              <label class="control-label">Your Address</label>
+              <label class="control-label">Anwani yako</label>
               <textarea class="form-control white_bg" name="address" rows="4" ><?php echo htmlentities($result->Address);?></textarea>
             </div>
             <div class="form-group">
-              <label class="control-label">Country</label>
+              <label class="control-label">Nchi</label>
               <input class="form-control white_bg"  id="country" name="country" value="<?php echo htmlentities($result->City);?>" type="text">
             </div>
             <div class="form-group">
-              <label class="control-label">City</label>
+              <label class="control-label">Mji</label>
               <input class="form-control white_bg" id="city" name="city" value="<?php echo htmlentities($result->City);?>" type="text">
             </div>
             <?php }} ?>
            
             <div class="form-group">
-              <button type="submit" name="updateprofile" class="btn">Save Changes <span class="angle_arrow"><i class="fa fa-angle-right" aria-hidden="true"></i></span></button>
+              <button type="submit" name="updateprofile" class="btn">hifadhi mabadiliko <span class="angle_arrow"><i class="fa fa-angle-right" aria-hidden="true"></i></span></button>
             </div>
           </form>
         </div>

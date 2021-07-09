@@ -37,7 +37,7 @@ $error="Something went wrong. Please try again";
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <meta name="keywords" content="">
 <meta name="description" content="">
-<title>Car Rental Portal |Post testimonial</title>
+<title>Deisigner corner | Machapisho ya ushahidi</title>
 <!--Bootstrap -->
 <link rel="stylesheet" href="assets/css/bootstrap.min.css" type="text/css">
 <!--Custome Style -->
@@ -99,11 +99,11 @@ $error="Something went wrong. Please try again";
   <div class="container">
     <div class="page-header_wrap">
       <div class="page-heading">
-        <h1>Post Testimonial</h1>
+        <h1>Weka Shuhuda</h1>
       </div>
       <ul class="coustom-breadcrumb">
-        <li><a href="#">Home</a></li>
-        <li>Post Testimonial</li>
+        <li><a href="#">Nyumbani</a></li>
+        <li>Weka shuhuda</li>
       </ul>
     </div>
   </div>
@@ -127,7 +127,7 @@ foreach($results as $result)
 <section class="user_profile inner_pages">
   <div class="container">
     <div class="user_profile_info gray-bg padding_4x4_40">
-      <div class="upload_user_logo"> <img src="assets/images/dealer-logo.jpg" alt="image">
+      <div class="upload_user_logo"> <img src="admin/img01/fashion.jpg" alt="image">
       </div>
 
       <div class="dealer_info">
@@ -142,20 +142,20 @@ foreach($results as $result)
         <?php include('includes/sidebar.php');?>
       <div class="col-md-6 col-sm-8">
         <div class="profile_wrap">
-          <h5 class="uppercase underline">Post a Testimonial</h5>
+          <h5 class="uppercase underline">Weka shuhuda</h5>
             <?php if($error){?><div class="errorWrap"><strong>ERROR</strong>:<?php echo htmlentities($error); ?> </div><?php } 
-        else if($msg){?><div class="succWrap"><strong>SUCCESS</strong>:<?php echo htmlentities($msg); ?> </div><?php }?>
+        else if($msg){?><div class="succWrap"><strong>TAYARI</strong>:<?php echo htmlentities($msg); ?> </div><?php }?>
           <form  method="post">
           
           
             <div class="form-group">
-              <label class="control-label">Testimonail</label>
+              <label class="control-label">Shuhuda</label>
               <textarea class="form-control white_bg" name="testimonial" rows="4" required=""></textarea>
             </div>
           
            
             <div class="form-group">
-              <button type="submit" name="submit" class="btn">Save  <span class="angle_arrow"><i class="fa fa-angle-right" aria-hidden="true"></i></span></button>
+              <button type="submit" name="submit" class="btn">Hifadhi  <span class="angle_arrow"><i class="fa fa-angle-right" aria-hidden="true"></i></span></button>
             </div>
           </form>
         </div>

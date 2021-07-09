@@ -42,7 +42,7 @@ $error="Your current password is wrong";
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <meta name="keywords" content="">
 <meta name="description" content="">
-<title>CarForYou - Responsive Car Dealer HTML5 Template</title>
+<title>Designer corner | Nenosiri</title>
 <!--Bootstrap -->
 <link rel="stylesheet" href="assets/css/bootstrap.min.css" type="text/css">
 <!--Custome Style -->
@@ -119,11 +119,11 @@ return true;
   <div class="container">
     <div class="page-header_wrap">
       <div class="page-heading">
-        <h1>Update Password</h1>
+        <h1>Sasisha nenosiri</h1>
       </div>
       <ul class="coustom-breadcrumb">
-        <li><a href="#">Home</a></li>
-        <li>Update Password</li>
+        <li><a href="#">Nyumbani</a></li>
+        <li>Sasisha nenosiri</li>
       </ul>
     </div>
   </div>
@@ -147,7 +147,7 @@ foreach($results as $result)
 <section class="user_profile inner_pages">
   <div class="container">
     <div class="user_profile_info gray-bg padding_4x4_40">
-      <div class="upload_user_logo"> <img src="assets/images/dealer-logo.jpg" alt="image">
+      <div class="upload_user_logo"> <img src="admin/img01/fashion.jpg" alt="image">
       </div>
 
       <div class="dealer_info">
@@ -164,26 +164,26 @@ foreach($results as $result)
 <form name="chngpwd" method="post" onSubmit="return valid();">
         
             <div class="gray-bg field-title">
-              <h6>Update password</h6>
+              <h6>sasisha nenosiri</h6>
             </div>
              <?php if($error){?><div class="errorWrap"><strong>ERROR</strong>:<?php echo htmlentities($error); ?> </div><?php } 
         else if($msg){?><div class="succWrap"><strong>SUCCESS</strong>:<?php echo htmlentities($msg); ?> </div><?php }?>
             <div class="form-group">
-              <label class="control-label">Current Password</label>
+              <label class="control-label">nenosiri la sasa</label>
               <input class="form-control white_bg" id="password" name="password"  type="password" required>
             </div>
             <div cl
             <div class="form-group">
-              <label class="control-label">Password</label>
+              <label class="control-label">nenosiri</label>
               <input class="form-control white_bg" id="newpassword" type="password" name="newpassword" required>
             </div>
             <div class="form-group">
-              <label class="control-label">Confirm Password</label>
+              <label class="control-label">Thibitisha nenosiri</label>
               <input class="form-control white_bg" id="confirmpassword" type="password" name="confirmpassword"  required>
             </div>
           
             <div class="form-group">
-               <input type="submit" value="Update" name="update" id="submit" class="btn btn-block">
+               <input type="submit" value="sasisha" name="sasisha" id="submit" class="btn btn-block">
             </div>
           </form>
         </div>

@@ -15,7 +15,7 @@ else{
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <meta name="keywords" content="">
 <meta name="description" content="">
-<title>CarForYou - Responsive Car Dealer HTML5 Template</title>
+<title>Designer corner | </title>
 <!--Bootstrap -->
 <link rel="stylesheet" href="assets/css/bootstrap.min.css" type="text/css">
 <!--Custome Style -->
@@ -70,11 +70,11 @@ else{
   <div class="container">
     <div class="page-header_wrap">
       <div class="page-heading">
-        <h1>My Booking</h1>
+        <h1>Oda Zangu</h1>
       </div>
       <ul class="coustom-breadcrumb">
-        <li><a href="#">Home</a></li>
-        <li>My Booking</li>
+        <li><a href="#">Nyumbani</a></li>
+        <li>Oda zangu</li>
       </ul>
     </div>
   </div>
@@ -98,7 +98,7 @@ foreach($results as $result)
 <section class="user_profile inner_pages">
   <div class="container">
     <div class="user_profile_info gray-bg padding_4x4_40">
-      <div class="upload_user_logo"> <img src="assets/images/dealer-logo.jpg" alt="image">
+      <div class="upload_user_logo"> <img src="admin/img01/fashion.jpg" alt="image">
       </div>
 
       <div class="dealer_info">
@@ -113,7 +113,7 @@ foreach($results as $result)
 
       <div class="col-md-6 col-sm-8">
         <div class="profile_wrap">
-          <h5 class="uppercase underline">My Bookings </h5>
+          <h5 class="uppercase underline">Oda Zangu </h5>
           <div class="my_vehicles_list">
             <ul class="vehicle_listing">
 <?php
